@@ -3,6 +3,7 @@ import javax.swing.WindowConstants;
 import javax.swing.border.EmptyBorder;
 import javax.swing.JPanel;
 import javax.swing.JButton;
+import javax.swing.UIManager;
 
 import java.awt.Color;
 
@@ -18,6 +19,7 @@ public class Frame extends JFrame
 
 	public Frame()
 	{
+		setTheme();
 		setTitle( "Basic Java Frame" );
 		setSize( 450, 360 );
 		setLocationRelativeTo( null );
@@ -35,5 +37,17 @@ public class Frame extends JFrame
 		button.addActionListener( event -> System.exit( 0 ) );
 		getContentPane().add( button );
 		getRootPane().setDefaultButton( button );
+	}
+
+	public void setTheme()
+	{
+		try
+		{
+			UIManager.setLookAndFeel( "javax.swing.plaf.nimbus.NimbusLookAndFeel" );
+		}
+		catch( Exception e )
+		{
+			e.printStackTrace();
+		}
 	}
 }
