@@ -6,6 +6,7 @@ Editando informacion...
 #Aprendiendo a usar GitHub: .......... Completado [1%]
 
 
-#Entonrno de desarrollo:
+#Entornno de desarrollo para pruebas:
 - Linux Mint 17.1
+- Terminal
 - MacBook Pro 13.3'
