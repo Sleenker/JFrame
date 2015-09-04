@@ -20,7 +20,7 @@ public class Frame extends JFrame
 	public Frame()
 	{
 		setTheme();
-		setTitle( "Basic Java Frame" );
+		setTitle( "Ventana Basica Java 8" );
 		setSize( 450, 360 );
 		setLocationRelativeTo( null );
 		setDefaultCloseOperation( WindowConstants.EXIT_ON_CLOSE );
