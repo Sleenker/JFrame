@@ -11,4 +11,5 @@ Editando informacion...
 - Terminal
 - MacBook Pro 13.3'
 
-#Otro dia de aprendizaje...
+#Otro dia de aprendizaje:
+Ya aprendí a eliminar un archivo y enviar su respectivo commit.
