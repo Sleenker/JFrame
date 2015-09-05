@@ -6,7 +6,7 @@ public class HelloWorld
 	{
 		System.out.print( "Please type in your name: " );
 
-		new HelloWorld().showMessage( new Scanner( System.in.nextLine() ) );
+		System.out.println( new HelloWorld().showMessage( new Scanner( System.in ).nextLine() ) );
 	}
 
 	public String showMessage( String yourName )
