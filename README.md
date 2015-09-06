@@ -13,3 +13,6 @@ Editando informacion...
 
 #Otro dia de aprendizaje:
 Ya aprendí a eliminar un archivo y enviar su respectivo commit.
+
+#Otro día mas!:
+He agregado un proyecto llamado "Hospital Project", el cual esta dentro de su directorio de fuentes.
